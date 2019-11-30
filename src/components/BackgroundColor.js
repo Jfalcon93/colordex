@@ -13,7 +13,7 @@ const BackgroundColor = ({backgroundColor, textColor, changeBackground=f=>f, sli
     return (
         <div className = 'sub-container'>
             <p>Background</p>
-            <input ref={input => _color = input} type="text" value={backgroundColor} onBlur={change} style={{background: backgroundColor, color: textColor}} />
+            <input ref={input => _color = input} type="text" value={backgroundColor} onBlur={change} style={{background: backgroundColor, color: textColor}} disabled />
             <HslSlider color={backgroundColor}
                        textColor={textColor}
                        slide={slide}/>
