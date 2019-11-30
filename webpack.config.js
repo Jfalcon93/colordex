@@ -9,7 +9,7 @@ module.exports = {
     },
     devServer: {
         contentBase: path.join(__dirname, '/dist'),
-        inline: true,
+        disableHostCheck: true,
         port: process.env.PORT || 3000
     },
     module: {
