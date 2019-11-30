@@ -9,8 +9,8 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --port $PORT --host 0.0.0.0",
+    "start": "webpack-dev-server --port $PORT --host 0.0.0.0",
+    "test": "webpack-dev-server --mode development --open --hot",
     "heroku-postbuild": "webpack -p"
   },
   "author": "Jordan Falcon",
