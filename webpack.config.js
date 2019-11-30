@@ -8,6 +8,7 @@ module.exports = {
         filename: 'index_bundle.js'
     },
     devServer: {
+        contentBase: path.join(__dirname, '/dist'),
         inline: true,
         port: process.env.PORT || 3000
     },
