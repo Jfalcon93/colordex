@@ -187,3 +187,69 @@ nav ul li a {
 footer {
     margin: 64px 0px;
 }
+
+@media (max-width: 600px) {
+    .app {
+        padding: 4px 24px;
+        height: 100%;
+    }
+    
+    nav {
+        margin: 32px 0px;
+        padding: 4px 0px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding-right: 16px;
+    }
+    
+    .accessibility {
+        margin: 0px;
+    }
+
+    .wcag {
+        margin-right: 16px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .rating {
+        font-size: 32px;
+        margin-right: 0px;
+        font-weight: 700;
+    }
+
+    .big-text {
+        font-size: 72px;
+        font-weight: 900;
+        margin-right: 16px;
+    }
+
+    .body span {
+        margin-right: 0px;
+    }
+    
+    .container {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-container {
+        flex: 50%;
+    }
+    
+    .sub-container p {
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+    
+    .sub-container input {
+        width: 100%;
+        border: none;
+        font-size: 72px;
+        margin-bottom: 12px;
+    }
+
+}
