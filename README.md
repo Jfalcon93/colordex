@@ -1,4 +1,4 @@
-# Colordex AKA COLOR-PICKER on GitHub
+# Colordex
 
 Color accessibility application created to teach myself React things.
 Users are able to adjust the color for text and the background by adjusting the hue, saturation, and lightness.
